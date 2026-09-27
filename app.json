@@ -1,0 +1,21 @@
+{
+  "name": "RAUF-MD",
+  "description": "RAUF-MD WhatsApp bot made by RAUF-MD official",
+  "logo": "https://n.uguu.se/BlGoHUJU.jpg",
+  "keywords": ["bot","RAUF-MD","WhatsApp-Bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the RAUF-MD session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
